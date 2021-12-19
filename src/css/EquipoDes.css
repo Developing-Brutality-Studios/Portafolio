@@ -1,0 +1,29 @@
+.container {
+    margin: 3rem auto;
+    max-width: 1200px;
+}
+.gridImages1{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+}
+.gridImages2{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+.imageDesigner{   
+    width: 11vw;
+    height: 11vw;
+    border-radius: 50%;
+    padding: 1vw;
+}
+.containerImage{   
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    
+}
+.containerTexto{
+    padding: 1vw;
+    grid-column: 2;
+}
+
