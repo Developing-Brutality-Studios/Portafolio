@@ -1,0 +1,89 @@
+body{
+    margin: 0%;
+}
+.prueba{
+    color: blueviolet;
+}
+#cont{
+    display: grid;
+    z-index: 100;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+#cont{
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-name: base;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+@keyframes base {
+    0%{
+        grid-template-columns: 50% 50%;
+    }
+    /* 10%{
+        grid-template-columns: 55% 45%;
+    }
+    20%{
+        grid-template-columns: 60% 40%;
+    }
+    30%{
+        grid-template-columns: 65% 35%;
+    }
+    40%{
+        grid-template-columns: 70% 30%;
+    }
+    50%{
+        grid-template-columns: 75% 25%;
+    }
+    60%{
+        grid-template-columns: 80% 20%;
+    }
+    70%{
+        grid-template-columns: 85% 15%;
+    }
+    80%{
+        grid-template-columns: 90% 10%;
+    }
+    90%{
+        grid-template-columns: 95% 5%;
+    } */
+    100%{
+        grid-template-columns: 100% 0%;
+    }
+}
+#red{
+    display: flex;
+    
+    grid-column: 1;
+    align-items: center;
+    background-color: coral;
+}
+#red h1{
+    z-index: 500;
+    font-size: 8vw;
+    margin-left: 65%;
+}
+#red h1{
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-name: titulo;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+@keyframes titulo {
+    from{
+        margin-left: 65%;
+    }
+    to{
+        margin-left: 83%;
+    }
+}
+#white{
+    display: grid;
+    grid-column: 2;
+    background-color: cornflowerblue;
+}
