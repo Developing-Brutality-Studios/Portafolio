@@ -1,7 +1,7 @@
 import * as React from "react"
 import EquipoDes from "../componentes/EquipoDes"
 import Proyectos from "../componentes/Proyectos"
-
+import "../css/Generic.css"
 // styles
 
 
